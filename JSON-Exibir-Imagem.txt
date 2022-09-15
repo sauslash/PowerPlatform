@@ -1,0 +1,19 @@
+{
+  "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+  "elmType": "a",
+  "attributes": {
+    "href": "@currentField",
+    "target": "_blank"
+  },
+  "children": [
+    {
+      "elmType": "img",
+      "style": {
+        "width": "150px"
+      },
+      "attributes": {
+        "src": "@currentField"
+      }
+    }
+  ]
+}
