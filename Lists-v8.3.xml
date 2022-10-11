@@ -1,0 +1,398 @@
+﻿<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-8BF5E389E6F349D6AED400D3F369B9B1">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-8BF5E389E6F349D6AED400D3F369B9B1" Version="1" BaseSiteTemplate="GROUP#0" Scope="Web">
+      <pnp:SiteFields>
+        <Field Name="AppSupportedLocales" ID="{DC652701-23CB-44ee-BF83-9E740746CD4C}" Type="MultiChoice" DisplayName="Localidades com Suporte" Group="_Hidden" Hidden="TRUE" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="AppImageURL1" ID="{E44B4501-AF7D-4B30-A8A2-E70B59DAE7BF}" Type="URL" DisplayName="URL da imagem 1" Description="Uma imagem ou captura de tela para este aplicativo. As imagens devem ter uma largura de 512 pixels e uma altura de 384 pixels." Group="_Hidden" Sealed="TRUE" Format="Image" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="State" ID="{cbf25806-37e7-4f90-873e-98c0a506f455}" Type="Text" DisplayName="Estado" Group="_Hidden" Sealed="FALSE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="AppMetadataLocale" ID="{14C6CD06-7417-42C1-A051-89E455FD1090}" Type="Choice" DisplayName="Idioma dos Metadados" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" FillInChoice="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="ClientComponentDeveloperWebsiteUrl" ID="{2639FC06-3B49-4365-834B-149FD1955BD8}" Type="Text" DisplayName="URL do Site do Desenvolvedor de Componente" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="AppImageURL3" ID="{873FD80B-3F9E-4ADA-88F4-3EE3C15522AC}" Type="URL" DisplayName="URL da imagem 3" Description="Uma imagem ou captura de tela para este aplicativo. As imagens devem ter uma largura de 512 pixels e uma altura de 384 pixels." Group="_Hidden" Sealed="TRUE" Format="Image" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="AppVersion" ID="{8416FF0B-F1AB-49FC-A7EF-A744F871F058}" Type="Text" DisplayName="Versão do aplicativo" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="FALSE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE">
+          <Default>1.0.0.0</Default>
+        </Field>
+        <Field Name="ClientComponentDeveloperName" ID="{5DC8760E-C00E-4E80-AE4C-757906C24712}" Type="Text" DisplayName="Nome do Desenvolvedor de Componente" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field ID="{9889a80f-c9ec-41d8-a359-ac5fb5c4cfa2}" Name="_SPCallToAction" StaticName="_SPCallToAction" DisplayName="Chamada para ação" Type="Note" SourceID="http://schemas.microsoft.com/sharepoint/v3" Group="_Hidden" Description="" AllowDeletion="FALSE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInViewForms="FALSE" ShowInListSettings="FALSE" />
+        <Field Name="AadServicePrincipalId" ID="{32434713-0003-4ACC-9976-9EAD1309888B}" Type="Text" DisplayName="ID da Entidade de Serviço do Azure AD" Group="_Hidden" Hidden="TRUE" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="IsClientSideSolution" ID="{2B6EEA14-803B-47D2-959F-4947BF4E978C}" Type="Boolean" DisplayName="Solução do lado do cliente" Group="_Hidden" Hidden="FALSE" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="IsProviderHostedClientSideSolution" ID="{886b911a-e83c-4a3b-8931-25c832bacac6}" Type="Boolean" DisplayName="Provedor Hospedeiro" Group="_Hidden" Hidden="TRUE" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="AppImageURL2" ID="{047D5B20-5E82-4EA1-9841-F62C9656C41A}" Type="URL" DisplayName="URL da imagem 2" Description="Uma imagem ou captura de tela para este aplicativo. As imagens devem ter uma largura de 512 pixels e uma altura de 384 pixels." Group="_Hidden" Sealed="TRUE" Format="Image" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="AppImageURL4" ID="{307ECF23-25D5-4D1D-89F5-693EB977D6F5}" Type="URL" DisplayName="URL da imagem 4" Description="Uma imagem ou captura de tela para este aplicativo. As imagens devem ter uma largura de 512 pixels e uma altura de 384 pixels." Group="_Hidden" Sealed="TRUE" Format="Image" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="AppImageURL5" ID="{1FC17524-AFA8-4E6F-BA64-A77DD42F310B}" Type="URL" DisplayName="URL da imagem 5" Description="Uma imagem ou captura de tela para este aplicativo. As imagens devem ter uma largura de 512 pixels e uma altura de 384 pixels." Group="_Hidden" Sealed="TRUE" Format="Image" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="TenantWideExtensionSequence" ID="{89AA6026-7B00-4D24-8B4A-7C7DE7880373}" Type="Integer" DisplayName="Sequência" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="ClientComponentDeveloperPrivacyUrl" ID="{D2C76127-BE32-47ED-A153-A45F55E74C99}" Type="Text" DisplayName="URL da Privacidade do Desenvolvedor de componentes" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="IsolatedDomain" ID="{68021728-C04C-45BB-B51F-7BCB5AB997B1}" Type="Text" DisplayName="Domínio Isolado" Group="_Hidden" Hidden="FALSE" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="ReturnIfCustomScriptDisabled" ID="{274A482A-AC49-4DB7-BBB5-8BFBDD27B45B}" Type="Boolean" Group="_Hidden" Sealed="TRUE" DisplayName="Retornar se o Script Personalizado Estiver Desabilitado" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="FALSE" ShowInNewForm="TRUE" />
+        <Field Name="SolutionVersion" ID="{F92C6A2A-1749-428E-B7DA-3E44C3BEAA8F}" Type="Text" DisplayName="Versão da Solução" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="TenantWideExtensionComponentId" ID="{A146D12A-1902-41A9-920A-155738EFF298}" Type="Text" DisplayName="Id do Componente" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="SolutionId" ID="{FD34CA2F-4E81-40FA-B16F-4C455235DA19}" Type="Text" DisplayName="ID da Solução" Group="_Hidden" Indexed="TRUE" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="SolutionName" ID="{F3D82830-DF08-4612-B895-61198F55C723}" Type="Text" DisplayName="Nome da Solução" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="AppThumbnailURL" ID="{22FA2E37-2293-4E0B-90E9-FA00CCBD85B6}" Type="URL" DisplayName="Ícone" Description="A URL do ícone do aplicativo. O ícone deve ter uma largura e altura de 96 pixels." Group="_Hidden" Sealed="FALSE" Format="Image" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="FeatureName" ID="{95668939-6451-4AE1-91FA-C5923F9E0BE7}" Type="Text" DisplayName="Nome do Recurso" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="AadApplicationId" ID="{33BDA339-EFE6-4A1B-ACC8-6C79A1DBAE98}" Type="Text" DisplayName="ApplicationId do Azure AD" Group="_Hidden" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="TenantWideExtensionLocation" ID="{6B75393A-F755-4290-BFDA-702AD4FDEAC3}" Type="Text" DisplayName="Localização" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="ComponentSupportsFullPage" ID="{CBC0003B-9D7E-4C33-BEA9-A37EFFDB7FB1}" Type="Boolean" DisplayName="Dá Suporte à Página Inteira" Group="_Hidden" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" />
+        <Field Name="IsClientSideSolutionCurrentVersionDeployed" ID="{96CCF93B-0EB3-4A81-B579-5F1BAD70DBCB}" Type="Boolean" DisplayName="Versão Atual Implantada" Group="_Hidden" Hidden="FALSE" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE">
+          <Default>0</Default>
+        </Field>
+        <Field Name="AppProductID" ID="{031CD33C-6486-4B08-AF1B-8D2B05EB3854}" Type="Guid" DisplayName="Identificação do Produto (Product ID)" Group="_Hidden" Sealed="TRUE" ReadOnly="TRUE" Indexed="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" />
+        <Field Name="AppDescription" ID="{5B90EE3E-12A0-44C7-86C6-D8FBC461777D}" Type="Note" DisplayName="Descrição" Group="_Hidden" Sealed="TRUE" UnlimitedLengthInDocumentLibrary="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="AppSubtype" ID="{DE81F63E-C919-4F47-80FB-95EF0EF506F7}" Type="Computed" DisplayName="Subtipo de Aplicativo" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="FALSE" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE">
+          <FieldRefs>
+            <FieldRef ID="{E026628D-A28F-4AD3-B34B-A95B3B009CCB}" Name="AppSubtypeID" />
+          </FieldRefs>
+          <DisplayPattern>
+            <Switch>
+              <Expr>
+                <Column Name="AppSubtypeID" />
+              </Expr>
+              <Case Value="16">
+                <HTML>Aplicativo SharePoint</HTML>
+              </Case>
+              <Case Value="2">
+                <HTML>Aplicativo do Office</HTML>
+              </Case>
+              <Default>
+                <HTML>Subtipo de Aplicativo Desconhecido</HTML>
+              </Default>
+            </Switch>
+          </DisplayPattern>
+        </Field>
+        <Field Name="IsFeaturedApp" ID="{B9D82342-9580-4BA1-9742-174CFCCBC77F}" Type="Boolean" DisplayName="Em Destaque" Description="Este aplicativo deve aparecer na seção &quot;notável&quot;." Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" Indexed="TRUE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="AadApplicationAppId" ID="{23410D43-D091-46AA-A459-73C200FA2E26}" Type="Text" DisplayName="AppId do Aplicativo Azure AD" Group="_Hidden" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="AppSupportURL" ID="{CD5E6C48-2138-4BF7-BFC3-4E5E9ECE7E1C}" Type="URL" DisplayName="URL de Suporte" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="ComponentSupportsTeamsTab" ID="{F689D549-103C-499C-96ED-709615986111}" Type="Boolean" DisplayName="Dá Suporte a Guias do Teams" Group="_Hidden" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" />
+        <Field ID="{cb19284a-cde7-4570-a980-1dab8bd74470}" Name="_ExtendedDescription" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_ExtendedDescription" DisplayName="Descrição" Group="Colunas Estendidas" RichText="TRUE" ShowInEditForm="FALSE" RichTextMode="Compatible" CanToggleHidden="TRUE" Type="Note" />
+        <Field Name="ClientComponentSkipFeatureDeployment" ID="{CD58F851-9090-49ED-A54E-FE488F662D4A}" Type="Boolean" Group="_Hidden" Sealed="TRUE" DisplayName="Ignorar Implantação do Recurso" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="FALSE" ShowInNewForm="TRUE" />
+        <Field Name="AppPublisher" ID="{B1402C55-9750-4346-B6C3-120B2DA47B73}" Type="Text" DisplayName="Editor" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="AppShortDescription" ID="{CF57B756-A2B6-43BD-ACE3-6FD4D8AD90F8}" Type="Text" DisplayName="Descrição Resumida" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="ClientComponentManifest" ID="{F755DD56-4435-4F64-B4C5-DF939A12540D}" Type="Note" DisplayName="Manifesto do Componente" Group="_Hidden" Sealed="TRUE" UnlimitedLengthInDocumentLibrary="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="ContainsTenantWideExtension" ID="{84316157-4F2B-42C4-B353-B593B357DE01}" Type="Boolean" Group="_Hidden" Sealed="TRUE" DisplayName="Contém instâncias de todos os locatários" ReadOnly="FALSE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="PackageDefaultSkipFeatureDeployment" ID="{A39BC357-357E-403A-8146-289F121B9040}" Type="Boolean" Group="_Hidden" Sealed="TRUE" DisplayName="Pacote Padrão – Ignorar Implantação do Recurso" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field ID="{AC9CE95B-F081-4B8A-BB19-2F4427D44674}" Name="_ExpirationDate" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_ExpirationDate" Hidden="TRUE" Group="_Hidden" ReadOnly="TRUE" Type="Lookup" List="Docs" ShowField="ExpirationDate" DisplayName="Data de Validade" FromBaseType="TRUE" DisplaceOnUpgrade="TRUE" FieldRef="ID" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" />
+        <Field Name="TenantWideExtensionDisabled" ID="{41494365-37F4-4A7D-B197-D54650FA0F1D}" Type="Boolean" Group="_Hidden" Sealed="TRUE" DisplayName="Desabilitado" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field ID="{08D89A66-4634-42B8-9D5A-0C27395A48B3}" Name="TriggerFlowInfo" SourceID="http://schemas.microsoft.com/sharepoint/v3" Required="FALSE" ShowInFileDlg="FALSE" Hidden="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" ReadOnlyEnforced="FALSE" ReadOnly="TRUE" DisplaceOnUpgrade="TRUE" StaticName="TriggerFlowInfo" Type="Text" DisplayName="Informações sobre o Fluxo de Disparo" Sortable="FALSE" />
+        <Field Name="SupportsTeamsTabs" ID="{12592a6a-af80-430a-baea-657bdcec791d}" Type="Boolean" DisplayName="Dá Suporte a Guias do Teams" Group="_Hidden" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="FeatureId" ID="{B53F4070-967C-4DB3-98DF-3CC990E80C5E}" Type="Text" DisplayName="ID do Recurso" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="IsolatedDomain" ID="{93C24D72-351F-4711-83F1-023783753740}" Type="Text" DisplayName="Domínio Isolado" Group="_Hidden" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="IsClientSideSolutionDeployed" ID="{B2FB0F79-CB89-4A24-A048-561D4B3505F7}" Type="Boolean" DisplayName="Implantada" Group="_Hidden" Hidden="FALSE" Sealed="FALSE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE">
+          <Default>0</Default>
+        </Field>
+        <Field Name="ClientComponentDeveloperTermsOfUseUrl" ID="{124A6F7F-99F7-4FFC-B00E-27C7E7EB121F}" Type="Text" DisplayName="URL dos Termos de uso do Desenvolvedor de componentes" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="TenantWideExtensionComponentProperties" ID="{EF74E985-EBF0-4C48-B722-28EC6266FFA4}" Type="Note" DisplayName="Propriedades do Componente" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="FeatureDescription" ID="{C43F8F87-1EBC-4C97-B222-B33884E93053}" Type="Text" DisplayName="Descrição do Recurso" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="TenantWideExtensionHostProperties" ID="{4740858A-940A-48DA-8553-2E10FEC5A056}" Type="Note" DisplayName="Propriedades do Host" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field ID="{ff41708b-e251-4237-a060-bea44657e8dc}" Name="_SPAssetFolderId" StaticName="_SPAssetFolderId" DisplayName="ID da Pasta de Ativos" Type="Number" SourceID="http://schemas.microsoft.com/sharepoint/v3" Group="_Hidden" Description="" ReadOnly="TRUE" AllowDeletion="FALSE" Hidden="TRUE" />
+        <Field Name="AppSubtypeID" ID="{E026628D-A28F-4AD3-B34B-A95B3B009CCB}" Type="Integer" DisplayName="ID de Subtipo de Aplicativo" Group="_Hidden" Hidden="TRUE" Sealed="TRUE" ReadOnly="TRUE" Indexed="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE">
+          <Default>1</Default>
+        </Field>
+        <Field Name="IsValidAppPackage" ID="{01DF698E-7495-428C-A04F-99C8EDA6B3CD}" Type="Boolean" DisplayName="Pacote Válido de Aplicativos" Group="_Hidden" Sealed="FALSE" ReadOnly="FALSE" ShowInEditForm="FALSE" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE">
+          <Default>1</Default>
+        </Field>
+        <Field Name="IsAppPackageEnabled" ID="{0985248F-8044-4C6F-B535-EB3AC2773D44}" Type="Boolean" Group="_Hidden" Sealed="TRUE" DisplayName="Habilitado" Description="Os usuários finais devem ver este aplicativo como uma opção para adicionar a sites." ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE">
+          <Default>1</Default>
+        </Field>
+        <Field Name="AppPrerequisitesXML" ID="{83CAD291-C898-4D17-9208-D6786FC17145}" Type="Note" DisplayName="Pré-requisitos" Group="_Hidden" Hidden="TRUE" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="AadApplicationAppId" ID="{D3FA9F96-DABF-413E-95B9-F8ECDF4DB794}" Type="Text" DisplayName="AppId do Aplicativo Azure AD" Group="_Hidden" Hidden="TRUE" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="ContainsTeamsManifest" ID="{4618BC96-56D1-49E1-8385-4E9BE7B4D604}" Type="Boolean" DisplayName="Contém Manifesto do Teams" Group="_Hidden" Hidden="FALSE" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="ClientComponentDeveloperMpnId" ID="{28E60C99-8BF9-450D-B5AA-125953A4D4F1}" Type="Text" DisplayName="ID do MPN de Desenvolvedor de Componente" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="ContainsVivaManifest" ID="{bf222d9b-8e25-4b89-8611-43c96bb550d3}" Type="Text" DisplayName="Contém o Manifesto do Microsoft Viva" Group="_Hidden" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="WebApiPermissionScopesNote" ID="{5D88909C-873A-4262-BC81-9B7C2AD04105}" Type="Note" Group="_Hidden" Sealed="TRUE" DisplayName="Escopos de Permissão de API Web Solicitados" ReadOnly="True" ShowInEditForm="FALSE" ShowInDisplayForm="True" ShowInNewForm="FALSE" />
+        <Field Name="FeatureScope" ID="{717F079D-2F2E-45AF-A59C-6A7A9E817897}" Type="Integer" DisplayName="Escopo do Recurso" Group="_Hidden" Hidden="TRUE" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="ClientComponentName" ID="{D2C5909D-D4B5-46B1-ADEE-13D4BC7394C9}" Type="Text" DisplayName="Nome do Componente" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="SharePointAppCategory" ID="{7CBABA9F-D082-4E55-96B9-62CA9A541769}" Type="Choice" FillInChoice="TRUE" DisplayName="Categoria" Group="_Hidden" AllowDeletion="FALSE" ReadOnly="FALSE" Indexed="TRUE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="AvailableFor" ID="{cc1abca4-3a7a-4191-a633-16146d2d4d09}" Type="Text" DisplayName="Disponível para" Group="_Hidden" Sealed="FALSE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="IsDefaultAppMetadataLocale" ID="{2E055CAD-648E-4723-AA3A-917DD9E809B3}" Type="Boolean" DisplayName="Idioma Padrão dos Metadados" JSLink="AppCatalogFieldTemplate.js" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE">
+          <Default>1</Default>
+        </Field>
+        <Field Name="AadServicePrincipalId" ID="{974BFAB2-86D1-455D-B60E-09D3EFE81E92}" Type="Text" DisplayName="ID da Entidade de Serviço do Azure AD" Group="_Hidden" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="WebApiPermissionRequests" ID="{F8A04DB8-4B6E-4613-9232-02811628A7F6}" Type="Boolean" DisplayName="WebApiPermissionRequests" Group="_Hidden" Hidden="TRUE" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="TenantWideExtensionWebTemplate" ID="{8B97C8BA-E0C8-4C35-9B65-EFEE64F1B610}" Type="Text" DisplayName="Modelo da Web" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="StoreAssetId" ID="{3AA8EFC0-1A31-42BC-9755-865F1A22A3F5}" Type="Text" DisplayName="ID da Store" Group="_Hidden" Hidden="FALSE" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" Indexed="TRUE" />
+        <Field Name="Source" ID="{cce7fec4-b405-4794-be65-17f5164a66f1}" Type="Text" DisplayName="Tipo de aplicativo" Group="_Hidden" Sealed="FALSE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="AppPermissionXML" ID="{BAD900C5-34C6-4D4B-B84A-698B5DA331FE}" Type="Note" DisplayName="Solicitações de Permissão de Aplicativo" Group="_Hidden" Hidden="TRUE" Sealed="TRUE" UnlimitedLengthInDocumentLibrary="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="AppPackageErrorMessage" ID="{80AC5BC8-73DC-4967-950F-3F6EC32C19F4}" Type="Note" DisplayName="Mensagem de Erro do Pacote do Aplicativo" Group="_Hidden" Sealed="FALSE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" />
+        <Field Name="SkipFeatureDeployment" ID="{EDA244C9-5A10-4057-8B96-A118A3B31454}" Type="Boolean" Group="_Hidden" Sealed="FALSE" DisplayName="Adicionado a todos os sites" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" />
+        <Field Name="AppPackageHash" ID="{0A95EBCF-B06D-479C-8196-C5783C96F751}" Type="Text" DisplayName="Hash do Pacote" Group="_Hidden" Hidden="TRUE" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="UniqueSolutionId" ID="{55C702D1-FD66-4D3D-9E78-A0D70BAB963A}" Type="Text" DisplayName="ID de Solução do Lado do Cliente Exclusivo" Indexed="TRUE" EnforceUniqueValues="TRUE" Group="_Hidden" Hidden="TRUE" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="Disabled" ID="{051ADCD1-34E2-48CA-A10D-973BA0C58227}" Type="Boolean" Group="_Hidden" Sealed="TRUE" DisplayName="Desabilitado" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="IsAutoHostedApp" ID="{5a7ad4d7-13d0-48e6-864f-ad693b491788}" Type="Boolean" DisplayName="Aplicativo Autohospedado" Group="_Hidden" Sealed="TRUE" Hidden="TRUE" ReadOnly="FALSE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE">
+          <Default>0</Default>
+        </Field>
+        <Field Name="ComponentSupportsWebPart" ID="{C8F457E4-A928-45A0-9FDA-496BDF220DC2}" Type="Boolean" DisplayName="Dá Suporte à Web Part" Group="_Hidden" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" />
+        <Field Name="ClientComponentType" ID="{1B9BECE7-97B2-4A80-8282-E059FD8B73AE}" Type="Text" DisplayName="Tipo de Componente" Group="_Hidden" Indexed="TRUE" Hidden="TRUE" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="FALSE" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" />
+        <Field Name="AppTitleInfo" ID="{D1807CED-4FAE-49AB-8307-9EC769C8D838}" Type="Note" DisplayName="Informações do Título do Aplicativo" Group="_Hidden" Hidden="TRUE" Sealed="TRUE" UnlimitedLengthInDocumentLibrary="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="TenantWideExtensionListTemplate" ID="{8AE577F5-25A2-4122-8705-3460142B2069}" Type="Integer" DisplayName="Modelo de Lista" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field Name="PreviouslySetClientComponentSkipFeatureDeployment" ID="{D3CD6DF8-CC3B-4DFF-BE20-8FF488A52955}" Type="Boolean" Group="_Hidden" Sealed="TRUE" DisplayName="Definido Anteriormente – Ignorar Implantação do Recurso" ReadOnly="FALSE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field Name="ExternalContentDomains" ID="{D1897CF8-37A7-486B-98B3-323672559684}" Type="Note" DisplayName="Domínios de Conteúdo Externos" Group="_Hidden" Hidden="FALSE" Sealed="TRUE" UnlimitedLengthInDocumentLibrary="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" />
+        <Field Name="AadApplicationId" ID="{CC24A8F8-6B2E-40F7-B06D-6D5697E1CB58}" Type="Text" DisplayName="ApplicationId do Azure AD" Group="_Hidden" Hidden="TRUE" Sealed="TRUE" ReadOnly="TRUE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" />
+        <Field ID="{3A8EE3F8-166B-4394-B3E2-E98DCF86A847}" Name="A2ODMountCount" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="A2ODMountCount" Hidden="TRUE" Group="_Hidden" ReadOnly="TRUE" Type="Lookup" List="Docs" ShowField="A2ODMountCount" DisplayName="Contagem de Montagem de A2OD" FromBaseType="TRUE" DisplaceOnUpgrade="TRUE" FieldRef="ID" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" />
+        <Field Name="AppVideoURL" ID="{831A8EFD-9456-43FA-B584-1CBDD4292519}" Type="URL" DisplayName="URL do Vídeo" Description="Uma URL para o arquivo de vídeo ou página da Web com um vídeo incorporado" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="TRUE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+        <Field ID="{1C640FFF-CEDA-4798-BF7A-096D3B1B823E}" Name="ClientComponentId" Group="_Hidden" Indexed="TRUE" ReadOnly="FALSE" ShowInEditForm="FALSE" ShowInDisplayForm="TRUE" ShowInViewForms="TRUE" ShowInNewForm="FALSE" Type="Guid" DisplayName="ID do Componente" />
+        <Field Name="AssetID" ID="{D3321FFF-46F3-407d-89EF-FFF1E075A018}" Type="Text" DisplayName="Código do Ativo" Group="_Hidden" Sealed="TRUE" ReadOnly="FALSE" ShowInEditForm="FALSE" ShowInDisplayForm="TRUE" ShowInNewForm="TRUE" />
+      </pnp:SiteFields>
+      <pnp:Lists>
+        <pnp:ListInstance Title="psyCoursesRating" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/psyCoursesRating" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/psyCoursesRating/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/psyCoursesRating/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/psyCoursesRating/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{E66BF142-F500-499C-B434-2637BEEFAE02}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/psyCoursesRating/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="psyspCourses" Description="List of courses" DocumentTemplate="" TemplateType="100" Url="Lists/psyspCourses" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/psyspCourses/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/psyspCourses/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/psyspCourses/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{63B41268-469C-4E6D-A80A-2A500077D91A}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/psyspCourses/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="ID" />
+                <FieldRef Name="CourseName" />
+                <FieldRef Name="QtyLesson" />
+                <FieldRef Name="QtyHours" />
+                <FieldRef Name="UrlImageCourse" />
+                <FieldRef Name="Active" />
+                <FieldRef Name="Instructor" />
+                <FieldRef Name="IDFirstLesson" />
+                <FieldRef Name="IDLastLesson" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter />
+              <ViewData />
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field Type="Text" DisplayName="CourseName" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{443578f5-2d4c-4ed7-9412-8de849e41218}" SourceID="{{listid:psyspCourses}}" StaticName="CourseName" Name="CourseName" ColName="nvarchar6" RowOrdinal="0" />
+            <Field CommaSeparator="TRUE" CustomUnitOnRight="TRUE" Decimals="0" DisplayName="QtyLesson" Format="Dropdown" IsModern="TRUE" Name="QtyLesson" Percentage="FALSE" Title="QtyLesson" Type="Number" Unit="None" ID="{675302aa-7917-48c1-a5d3-fcd94fefcdec}" SourceID="{{listid:psyspCourses}}" StaticName="QtyLesson" ColName="float1" RowOrdinal="0" />
+            <Field CommaSeparator="TRUE" CustomUnitOnRight="TRUE" Decimals="1" DisplayName="QtyHours" Format="Dropdown" IsModern="TRUE" Name="QtyHours" Percentage="FALSE" Title="QtyHours" Type="Number" Unit="None" ID="{175421da-4e3d-4064-96b7-bf6db1995d13}" SourceID="{{listid:psyspCourses}}" StaticName="QtyHours" ColName="float2" RowOrdinal="0" />
+            <Field DisplayName="UrlImageCourse" Format="Dropdown" IsModern="TRUE" MaxLength="255" Name="UrlImageCourse" Title="UrlImageCourse" Type="Text" ID="{60d1d7e1-595d-4a69-9b7d-457c3cf5ac99}" SourceID="{{listid:psyspCourses}}" StaticName="UrlImageCourse" ColName="nvarchar5" RowOrdinal="0" />
+            <Field DisplayName="Active" Format="Dropdown" IsModern="TRUE" Name="Active" Title="Active" Type="Boolean" ID="{7ed5c28c-fbb5-426f-9fea-c265a54f629d}" SourceID="{{listid:psyspCourses}}" StaticName="Active" ColName="bit1" RowOrdinal="0">
+              <Default>1</Default>
+            </Field>
+            <Field Type="Lookup" DisplayName="Instructor" Required="FALSE" EnforceUniqueValues="FALSE" List="{listid:psyspInstructors}" ShowField="InstructorName" UnlimitedLengthInDocumentLibrary="FALSE" RelationshipDeleteBehavior="None" ID="{d93308df-9b83-4736-bd3f-6d44c979935a}" SourceID="{{listid:psyspCourses}}" StaticName="Instructor" Name="Instructor" ColName="int1" RowOrdinal="0" />
+            <Field CommaSeparator="TRUE" CustomUnitOnRight="TRUE" Decimals="0" DisplayName="IDFirstLesson" Format="Dropdown" IsModern="TRUE" Name="IDFirstLesson" Percentage="FALSE" Title="IDFirstLesson" Type="Number" Unit="None" ID="{6f001a31-f4be-409a-a41f-cb543da6fd09}" SourceID="{{listid:psyspCourses}}" StaticName="IDFirstLesson" ColName="float3" RowOrdinal="0" />
+            <Field CommaSeparator="TRUE" CustomUnitOnRight="TRUE" Decimals="0" DisplayName="IDLastLesson" Format="Dropdown" IsModern="TRUE" Name="IDLastLesson" Percentage="FALSE" Title="IDLastLesson" Type="Number" Unit="None" ID="{f19adf66-b381-4740-af4d-e527a2f815c5}" SourceID="{{listid:psyspCourses}}" StaticName="IDLastLesson" ColName="float4" RowOrdinal="0" />
+          </pnp:Fields>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="psyspInstructors" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/psyspInstructors" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/psyspInstructors/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/psyspInstructors/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/psyspInstructors/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{786DF9CB-C10B-4776-B5BF-F1E0379561B5}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/psyspInstructors/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="ID" />
+                <FieldRef Name="InstructorName" />
+                <FieldRef Name="UrlImageInstructor" />
+                <FieldRef Name="Active" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter />
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field DisplayName="InstructorName" Format="Dropdown" IsModern="TRUE" MaxLength="255" Name="InstructorName" Title="InstructorName" Type="Text" ID="{15ceb60d-7090-4252-9b07-5efbeb8fbd6c}" StaticName="InstructorName" Required="FALSE" Hidden="FALSE" Customization="" ReadOnly="FALSE" PITarget="" PrimaryPITarget="" PIAttribute="" PrimaryPIAttribute="" Aggregation="" Node="" ColName="nvarchar4" RowOrdinal="0" SourceID="{{listid:psyspInstructors}}" />
+            <Field DisplayName="UrlImageInstructor" Format="Dropdown" IsModern="TRUE" MaxLength="255" Name="UrlImageInstructor" Title="UrlImageInstructor" Type="Text" ID="{c3a3685f-59ee-4c06-9b18-63d6c4d933c2}" StaticName="UrlImageInstructor" Required="FALSE" Hidden="FALSE" Customization="" ReadOnly="FALSE" PITarget="" PrimaryPITarget="" PIAttribute="" PrimaryPIAttribute="" Aggregation="" Node="" ColName="nvarchar5" RowOrdinal="0" SourceID="{{listid:psyspInstructors}}" />
+            <Field DisplayName="Active" Format="Dropdown" IsModern="TRUE" Name="Active" Title="Active" Type="Boolean" ID="{91800a61-b15e-499f-b96a-ae9b0ca4bccc}" SourceID="{{listid:psyspInstructors}}" StaticName="Active" ColName="bit1" RowOrdinal="0">
+              <Default>1</Default>
+            </Field>
+          </pnp:Fields>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="psyspLessonComments" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/psyspLessonComments" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/psyspLessonComments/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/psyspLessonComments/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/psyspLessonComments/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{E40AC353-EA93-446A-9912-0F34BE312E8D}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/psyspLessonComments/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="psyspLessons" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/psyspLessons" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/psyspLessons/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/psyspLessons/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/psyspLessons/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{EDAB076D-B866-4B49-994A-2739D8BD8CF6}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/psyspLessons/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="ID" />
+                <FieldRef Name="LessonName" />
+                <FieldRef Name="LessonDescription" />
+                <FieldRef Name="Module" />
+                <FieldRef Name="Course" />
+                <FieldRef Name="IDCourse" />
+                <FieldRef Name="Active" />
+                <FieldRef Name="LessonTimeDuration" />
+                <FieldRef Name="LessonType" />
+                <FieldRef Name="LessonUrlDocument" />
+                <FieldRef Name="LessonUrlVideo" />
+                <FieldRef Name="Order0" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter><![CDATA[]]></CustomFormatter>
+              <ViewData />
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field Type="Text" DisplayName="LessonName" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{6ed38133-8702-4e34-aab9-706f6e3fa496}" SourceID="{{listid:psyspLessons}}" StaticName="LessonName" Name="LessonName" ColName="nvarchar10" RowOrdinal="0" />
+            <Field Type="Note" DisplayName="LessonDescription" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" NumLines="6" RichText="FALSE" Sortable="FALSE" ID="{17e72bcd-005a-4d0b-bd47-a091ff7fab0c}" SourceID="{{listid:psyspLessons}}" StaticName="LessonDescription" Name="LessonDescription" ColName="ntext3" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="Module" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{d09b0b60-3420-4966-8231-9aa067f46775}" StaticName="Module" Name="Module" Hidden="FALSE" Customization="" ReadOnly="FALSE" PITarget="" PrimaryPITarget="" PIAttribute="" PrimaryPIAttribute="" Aggregation="" Node="" ColName="nvarchar5" RowOrdinal="0" SourceID="{{listid:psyspLessons}}" />
+            <Field Type="Text" DisplayName="LessonTimeDuration" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{fe1a5a95-1353-40d7-b792-70d02cd74eef}" SourceID="{{listid:psyspLessons}}" StaticName="LessonTimeDuration" Name="LessonTimeDuration" ColName="nvarchar11" RowOrdinal="0" />
+            <Field DisplayName="Course" Format="Dropdown" Indexed="FALSE" IsModern="TRUE" Name="Course" ShowField="Title" Title="Course" Type="Lookup" ID="{0adbf805-1351-4d4e-8486-18d1d5099a28}" StaticName="Course" Required="FALSE" Hidden="FALSE" Customization="" ReadOnly="FALSE" PITarget="" PrimaryPITarget="" PIAttribute="" PrimaryPIAttribute="" Aggregation="" Node="" List="{listid:psyspCourses}" ColName="int1" RowOrdinal="0" SourceID="{{listid:psyspLessons}}" />
+            <Field CommaSeparator="TRUE" CustomUnitOnRight="TRUE" Decimals="0" DisplayName="IDCourse" Format="Dropdown" IsModern="TRUE" Name="IDCourse" Percentage="FALSE" Title="IDCourse" Type="Number" Unit="None" ID="{60541615-8b58-4788-8bf9-8d405d84cb1a}" StaticName="IDCourse" Required="FALSE" Hidden="FALSE" Customization="" ReadOnly="FALSE" PITarget="" PrimaryPITarget="" PIAttribute="" PrimaryPIAttribute="" Aggregation="" Node="" ColName="float1" RowOrdinal="0" SourceID="{{listid:psyspLessons}}" />
+            <Field DisplayName="Active" Format="Dropdown" IsModern="TRUE" Name="Active" Title="Active" Type="Boolean" ID="{cb22f82e-b19d-4ea6-8722-cd7f2f06b587}" StaticName="Active" Required="FALSE" Hidden="FALSE" Customization="" ReadOnly="FALSE" PITarget="" PrimaryPITarget="" PIAttribute="" PrimaryPIAttribute="" Aggregation="" Node="" ColName="bit1" RowOrdinal="0" SourceID="{{listid:psyspLessons}}">
+              <Default>1</Default>
+            </Field>
+            <Field Type="Choice" DisplayName="LessonType" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" ID="{52029a22-3841-463e-a84e-eeadb360894a}" SourceID="{{listid:psyspLessons}}" StaticName="LessonType" Name="LessonType" ColName="nvarchar12" RowOrdinal="0">
+              <Default>Video</Default>
+              <CHOICES>
+                <CHOICE>Video</CHOICE>
+                <CHOICE>Document</CHOICE>
+              </CHOICES>
+            </Field>
+            <Field Type="Text" DisplayName="LessonUrlDocument" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{d622f299-537d-4440-9a0e-5822b4a19473}" SourceID="{{listid:psyspLessons}}" StaticName="LessonUrlDocument" Name="LessonUrlDocument" ColName="nvarchar13" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="LessonUrlVideo" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{7e772e59-855f-4814-b52d-88336849b744}" SourceID="{{listid:psyspLessons}}" StaticName="LessonUrlVideo" Name="LessonUrlVideo" ColName="nvarchar14" RowOrdinal="0" />
+            <Field CommaSeparator="TRUE" CustomUnitOnRight="TRUE" Decimals="0" DisplayName="Order" Format="Dropdown" IsModern="TRUE" Name="Order0" Percentage="FALSE" Title="Order" Type="Number" Unit="None" ID="{c1eb4380-90a3-453d-9d78-800b6cd814f7}" StaticName="Order0" ColName="float2" RowOrdinal="0" SourceID="{{listid:psyspLessons}}" CustomFormatter="" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Version="2" />
+          </pnp:Fields>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="psyspStudentCompletedLesson" Description="all lesson completed by student at the course" DocumentTemplate="" TemplateType="100" Url="Lists/psyspStudentCompletedLesson" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/psyspStudentCompletedLesson/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/psyspStudentCompletedLesson/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/psyspStudentCompletedLesson/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ReadSecurity="2" WriteSecurity="2" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{1F7A2FD6-ECCB-4CAC-85DE-D8C0957F7F9F}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/psyspStudentCompletedLesson/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="ID" />
+                <FieldRef Name="idCourse" />
+                <FieldRef Name="idStudent" />
+                <FieldRef Name="idLesson" />
+                <FieldRef Name="Author" />
+                <FieldRef Name="Editor" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter />
+              <ViewData />
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field CommaSeparator="TRUE" CustomUnitOnRight="TRUE" Decimals="0" DisplayName="idCourse" Format="Dropdown" IsModern="TRUE" Name="idCourse" Percentage="FALSE" Title="idCourse" Type="Number" Unit="None" ID="{627d56c3-2e61-406c-a2a7-01cd61e1437f}" SourceID="{{listid:psyspStudentCompletedLesson}}" StaticName="idCourse" ColName="float1" RowOrdinal="0" Indexed="TRUE" Version="1" />
+            <Field CommaSeparator="TRUE" CustomUnitOnRight="TRUE" Decimals="0" DisplayName="idStudent" Format="Dropdown" IsModern="TRUE" Name="idStudent" Percentage="FALSE" Title="idStudent" Type="Number" Unit="None" ID="{238614df-8ebf-4724-b4e2-e93cd2932603}" SourceID="{{listid:psyspStudentCompletedLesson}}" StaticName="idStudent" ColName="float2" RowOrdinal="0" Indexed="TRUE" Version="1" />
+            <Field CommaSeparator="TRUE" CustomUnitOnRight="TRUE" Decimals="0" DisplayName="idLesson" Format="Dropdown" IsModern="TRUE" Name="idLesson" Percentage="FALSE" Title="idLesson" Type="Number" Unit="None" ID="{4d613ae8-2290-4939-9c09-8d9e759c9987}" SourceID="{{listid:psyspStudentCompletedLesson}}" StaticName="idLesson" ColName="float3" RowOrdinal="0" Indexed="TRUE" Version="1" />
+          </pnp:Fields>
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false">
+              <pnp:RoleAssignment Principal="{associatedownergroupid}" RoleDefinition="Full Control" />
+              <pnp:RoleAssignment Principal="{associatedvisitorgroupid}" RoleDefinition="Read" />
+              <pnp:RoleAssignment Principal="{associatedmembergroupid}" RoleDefinition="Edit" />
+              <pnp:RoleAssignment Principal="Alunos" RoleDefinition="Plataforma contribute" />
+              <pnp:RoleAssignment Principal="Alunos" RoleDefinition="Plataforma Read" />
+            </pnp:BreakRoleInheritance>
+          </pnp:Security>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="psyspStudentEnrolled" Description="List with the enrolled students" DocumentTemplate="" TemplateType="100" Url="Lists/psyspStudentEnrolled" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/psyspStudentEnrolled/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/psyspStudentEnrolled/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/psyspStudentEnrolled/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{6EABAB15-9913-419C-A2DB-C3091A5B4167}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/psyspStudentEnrolled/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="idCourse" />
+                <FieldRef Name="idStudent" />
+                <FieldRef Name="statusEnrolled" />
+                <FieldRef Name="Author" />
+                <FieldRef Name="Editor" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter />
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field CommaSeparator="TRUE" CustomUnitOnRight="TRUE" Decimals="0" DisplayName="idCourse" Format="Dropdown" IsModern="TRUE" Name="idCourse" Percentage="FALSE" Title="idCourse" Type="Number" Unit="None" ID="{80f0ed61-f561-41ff-901d-01727da5698f}" StaticName="idCourse" Required="FALSE" Hidden="FALSE" Customization="" ReadOnly="FALSE" PITarget="" PrimaryPITarget="" PIAttribute="" PrimaryPIAttribute="" Aggregation="" Node="" ColName="float1" RowOrdinal="0" SourceID="{{listid:psyspStudentEnrolled}}" />
+            <Field CommaSeparator="TRUE" CustomUnitOnRight="TRUE" Decimals="0" DisplayName="idStudent" Format="Dropdown" IsModern="TRUE" Name="idStudent" Percentage="FALSE" Title="idStudent" Type="Number" Unit="None" ID="{700e78ba-3cf5-4810-868e-2fecc268d8ba}" StaticName="idStudent" Required="FALSE" Hidden="FALSE" Customization="" ReadOnly="FALSE" PITarget="" PrimaryPITarget="" PIAttribute="" PrimaryPIAttribute="" Aggregation="" Node="" ColName="float2" RowOrdinal="0" SourceID="{{listid:psyspStudentEnrolled}}" />
+            <Field DisplayName="statusEnrolled" Format="Dropdown" IsModern="TRUE" MaxLength="255" Name="statusEnrolled" Title="statusEnrolled" Type="Text" ID="{daa193ee-a7a0-423b-941e-94fc1f8e0f66}" SourceID="{{listid:psyspStudentEnrolled}}" StaticName="statusEnrolled" ColName="nvarchar4" RowOrdinal="0" />
+          </pnp:Fields>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="psyspStudents" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/psyspStudents" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/psyspStudents/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/psyspStudents/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/psyspStudents/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{C8EC35B0-89E7-4FD7-AD65-6A819337C581}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/psyspStudents/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="ID" />
+                <FieldRef Name="StudentName" />
+                <FieldRef Name="StudentLastName" />
+                <FieldRef Name="StudentEmail" />
+                <FieldRef Name="StudentPhoto" />
+                <FieldRef Name="Active" />
+                <FieldRef Name="StudentDoYouDo" />
+                <FieldRef Name="StudentLinkedin" />
+                <FieldRef Name="Created" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter />
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field DisplayName="StudentName" Format="Dropdown" IsModern="TRUE" MaxLength="255" Name="StudentName" Title="StudentName" Type="Text" ID="{f366f848-d498-4954-ac35-ff56c2053fd5}" SourceID="{{listid:psyspStudents}}" StaticName="StudentName" ColName="nvarchar4" RowOrdinal="0" />
+            <Field DisplayName="StudentLastName" Format="Dropdown" IsModern="TRUE" MaxLength="255" Name="StudentLastName" Title="StudentLastName" Type="Text" ID="{c23d5e9c-6ca0-4b3e-afc1-05d91b6bb7d2}" SourceID="{{listid:psyspStudents}}" StaticName="StudentLastName" ColName="nvarchar7" RowOrdinal="0" />
+            <Field DisplayName="StudentEmail" Format="Dropdown" IsModern="TRUE" MaxLength="255" Name="StudentEmail" Title="StudentEmail" Type="Text" ID="{ea2fcca0-30a5-4853-8d8c-9111449b65bd}" SourceID="{{listid:psyspStudents}}" StaticName="StudentEmail" ColName="nvarchar6" RowOrdinal="0" />
+            <Field DisplayName="StudentPhoto" Format="Dropdown" IsModern="TRUE" MaxLength="255" Name="StudentPhoto" Title="StudentPhoto" Type="Text" ID="{194eb90b-9078-4df7-b84d-a9e0e287bd66}" SourceID="{{listid:psyspStudents}}" StaticName="StudentPhoto" ColName="nvarchar5" RowOrdinal="0" />
+            <Field DisplayName="Active" Format="Dropdown" IsModern="TRUE" Name="Active" Title="Active" Type="Boolean" ID="{5ad4ba46-3e92-4dd3-96b5-a5a851333776}" SourceID="{{listid:psyspStudents}}" StaticName="Active" ColName="bit1" RowOrdinal="0">
+              <Default>1</Default>
+            </Field>
+            <Field Type="Text" DisplayName="StudentDoYouDo" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{47a5143a-b3ba-4212-9b0f-57adb6385cbd}" SourceID="{{listid:psyspStudents}}" StaticName="StudentDoYouDo" Name="StudentDoYouDo" ColName="nvarchar8" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="StudentLinkedin" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{17b93f92-a46b-424b-a630-a47bfd07724d}" SourceID="{{listid:psyspStudents}}" StaticName="StudentLinkedin" Name="StudentLinkedin" ColName="nvarchar9" RowOrdinal="0" />
+          </pnp:Fields>
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false">
+              <pnp:RoleAssignment Principal="{associatedownergroupid}" RoleDefinition="Full Control" />
+              <pnp:RoleAssignment Principal="{associatedvisitorgroupid}" RoleDefinition="Read" />
+              <pnp:RoleAssignment Principal="{associatedmembergroupid}" RoleDefinition="Edit" />
+              <pnp:RoleAssignment Principal="Alunos" RoleDefinition="Plataforma contribute" />
+              <pnp:RoleAssignment Principal="Alunos" RoleDefinition="Plataforma Read" />
+            </pnp:BreakRoleInheritance>
+          </pnp:Security>
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
